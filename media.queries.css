@@ -1,0 +1,469 @@
+/*start menu*/
+
+@media (min-width: 768px) {
+
+    .line {
+        display: none;
+    }
+
+}
+
+/*end first stage*/
+
+@media (max-width: 767px) {
+   
+    /*start header*/
+
+    .list {
+        display: none;
+    }
+
+    .ls {
+        gap: 25px;
+    }
+
+    .line:hover + .list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 60px;
+        left: 0;
+        width: calc(100% - 2px);
+    }
+
+    .list {
+        gap: 0;
+        background-color: black;
+        z-index: 2;
+    }
+
+    .list .a1::before {
+        height: 0;
+    }
+
+    .list .active::before {
+        height: 0;
+    }
+
+    .list li {
+        text-align: center;
+        width: 100%;
+        border-bottom: 2px solid rebeccapurple;
+    } 
+
+    .list li a {
+        display: block;
+        padding: 15px;
+    }
+
+    /*end header*/
+
+    /*start landing*/
+
+    .par {
+        width: 100%;
+    }
+
+    /*end landing*/
+
+    /*start services*/
+
+    .par1 {
+        width: 100%;
+    }
+
+    /*end services*/
+
+    /*start portfolio*/
+
+    .portfolio-image .box {
+        flex-basis: 100%;
+    }
+
+    /*end portfolio*/
+
+    /*start about us*/
+
+    .about-us-section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .section1 {
+        width: 100%;
+    }
+
+    /*end the first stage*/
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills-circles {
+        transform: translateX(-17%);
+        left: 0 !important;
+    }
+
+    .container2 {
+        width: 96%;
+    }
+
+    .skill1 {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skill1 p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills-circles {
+        margin-left: 44%;
+    }
+
+    .fau-div {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    /*end about us*/
+
+    /*start contact us*/
+
+    .contact-us .title1 {
+        margin-left: -5px;
+    }
+
+    .contact-us-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact-us-con {
+        width: 90%;
+    }
+
+    .contact-us-con-text {
+        text-align: center;
+    }
+
+    .text-div2 {
+        text-align: center;
+    }
+
+    .text-p2 {
+        text-align: center;
+    }
+
+    /*end contact us*/
+
+}
+    
+/*end menu*/
+
+/*start media 810*/
+
+@media (min-width: 809px) {
+
+    .grid {
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+        gap: 77px 100px;
+    }
+
+    .grid .nav h3 {
+        margin-bottom: 15px;
+    }
+
+}
+
+/*first final*/
+
+@media (max-width: 810px) {
+
+    /*start services*/
+
+    .tcp {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .grid .nav {
+        margin-left: 0;
+        position: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons1 {
+        position: initial;
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 50px !important;
+    }
+
+    .grid .nav h3 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: var(--color2);
+    }
+    
+    .grid .nav p {
+        margin-bottom: 80px;
+        color: var(--color1);
+        text-align: center;
+    }
+
+    /*end services*/
+
+    /*start pricing*/
+
+    .ps-fp {
+        flex-direction: column !important;
+        gap: 25px !important;
+    }
+
+    .ps-fp-par {
+        width: 99%;
+        text-align: center;
+    }
+
+    /*end pricing*/
+
+}
+
+/*end media 810*/
+
+/*start media 874*/
+
+@media (max-width: 874px) {
+    
+    .nav1 {
+        width: 100%;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+}
+
+/*end media 874*/
+
+/*start media 992*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /*start about us*/
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills-circles {
+        transform: translateX(-17%);
+        left: 0 !important;
+    }
+
+    /*end about us*/
+
+}
+
+/*end media 992*/
+
+/*start media 1000px*/
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    /*start about us*/
+
+    .about-us-section2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .section1 {
+        width: 35%;
+    }
+
+    /*end the first stage*/
+
+    .container2 {
+        width: 98%;
+    }
+
+    .skill1 {
+        justify-content: center;
+    }
+
+    .skill1 p {
+        width: 60%;
+    }
+
+    .skills-circles {
+        margin-left: 47%;
+    }
+
+}
+
+/*end the first stage*/
+
+@media (min-width: 1000px) {
+
+    .about-us-section2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+/*end media 1000px*/
+
+/*start media 1199px*/
+
+@media (min-width: 1199px) {
+    .portfolio-image .box {
+        flex-basis: 25%;
+    }
+}
+
+/*end media 1199px*/
+
+/*start media 300px*/
+
+@media (max-width: 300px) {
+
+    /*end */
+
+    .par {
+        width: 100%;
+        padding: 7px;
+        text-align: center;
+    }
+
+    .icon {
+        left: 17px;
+        right: 10px;
+    }
+
+    /*end landing*/
+
+    /*start portfolio*/
+
+    .title2 {
+        margin-left: -13%;
+    }
+
+    /*end portfolio*/
+
+    /*start about us*/
+
+    .about-us-img {
+        margin-top: -60%;
+        margin-bottom: 24%;
+    }
+
+    .container2 {
+        width: 93%;
+    }
+
+    .about-us .title1 {
+        font-size: 38px;
+    }
+
+    /*end about us*/
+
+    /*start pricing*/
+
+    .pl {
+        max-width: 265px;
+    }
+
+    .pl-ul-1::before {
+        width: 53% !important;
+        left: 62px !important;
+    }
+
+    .pl-ul-2::before {
+        width: 53% !important;
+        left: 62px !important;
+    }
+    
+    .pl-ul-3::before {
+        width: 53% !important;
+        left: 62px !important;
+    }
+
+    .ps-fp form {
+        width: 92%;
+    }
+
+    .ps-fp form input[type="email"] {
+        width: 147px;
+    }
+
+    .ps-fp-par {
+        width: 98%;
+    }
+    
+    /*end pricing*/
+
+    /*start contact us*/
+
+    .contact-us .title1 {
+        font-size: 31px;
+    }
+
+    .contact-us-con input[type="submit"] {
+        padding: 11px 7px;
+    }
+
+    /*end contact us*/
+
+}
+
+/*end media 300px*/
+
+/*start media 400px*/
+
+@media (min-width: 301px) and (max-width: 400px) {
+    .par {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .icon {
+        left: 10px;
+        right: 5px;
+    }
+
+}
+
+/*end media 400px*/
+
+/*start media 600px*/
+
+@media (min-width: 301px) and (max-width: 600px) {
+    /*start about us*/
+
+    .about-us-img {
+        margin-top: -25%;
+        margin-bottom: 7%;
+    }
+
+    /*end about us*/
+
+}
+
+/*end media 600px*/
